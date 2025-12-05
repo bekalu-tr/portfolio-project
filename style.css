@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
      box-sizing:border-box ;
-     
-   
-  
 }
 .header_section nav ul{
     display: flex;
@@ -13,10 +10,7 @@
     align-items: end;
     gap: 20px;
   background-color: white;
-     padding: 15px;
-       
-
-   
+     padding: 15px; 
 }
 .header_section nav ul li {
 
@@ -146,14 +140,38 @@ padding: 3px;
   font-size: medium;
 }.contact_section {
   background-color: rgb(217, 243, 234);
-  height: 300px;
+  height: 400px;
 }.contact_section div{
   text-align: center;
-  padding: 30px;
+  padding: 20px;
+  
 }.contact_section div div input{
   padding: 3px;
   height: 30px;
   width: 250px;
   border-style: none;
-}
+  border-radius: 20px;
+}.contact_section div div button{
+  border-radius: 13px;
+  padding: 10px;
+  background-color: rgba(175, 218, 243, 0.884);
+  color: white;
+}.contact_section div div button a{
+  text-decoration: none;
+}.contact_section div ul{
+  display: inline-flex;
+  gap: 20px;
+
+}.contact_section div div li{
+  list-style: none;
+}.contact_section div div li a{
+  font-size: smaller;
+  text-decoration: none;
+}footer{
+  text-align: center;
+  background-color:white;
+  padding: 18px;
+  font-size: small;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
